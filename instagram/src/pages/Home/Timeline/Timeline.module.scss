@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 3000px;
+}
+
+.timeline__left {
+  flex: 0.6;
+  display: flex;
+  justify-content: center;
+}
+.timeline__right {
+  flex: 0.4;
+}

@@ -1,0 +1,86 @@
+.wrapper {
+  width: 500px;
+  margin: 30px 40px 50px 40px;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post__headerAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: var(--font-weight-bold);
+}
+.post__headerAuthorAvatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.post__headerAuthorAvatar:hover {
+  cursor: pointer;
+}
+
+.post__headerAuthorName {
+  font-size: var(--font-size14);
+  margin-left: 10px;
+}
+
+.post__headerAuthorName:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.post__headerAuthorTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size12);
+  font-weight: var(--font-weight-medium);
+  color: #808080;
+  margin-left: 8px;
+}
+
+.post__headerBtn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.post__body {
+}
+
+.post__image {
+  width: 100%;
+  border-radius: 6px;
+  border: 0.6px solid rgba(128, 128, 128, 0.516);
+}
+
+.post__image:hover {
+  cursor: pointer;
+}
+
+.post__footer {
+  margin-top: 15px;
+}
+
+.post__footerIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__footerIcon__heart:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.post__footerIcon__save:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

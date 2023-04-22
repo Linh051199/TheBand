@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.sidebar {
+  flex: 0.175;
+}
+
+.content {
+  flex: 0.825;
+  left: 20%;
+  height: 3000px;
+  border-left: 1px solid #dbdbdb;
+}
